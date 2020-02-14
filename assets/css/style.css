@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container1 img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+
+}
+
+.container1 .description {
+    font-family: 'Special Elite', cursive;
+    font-size: 70px;
+
+
+
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
